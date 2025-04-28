@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* styles.css */
+
+
+.md\:w-2\/3 {
+  width: 66.6667%;
+}
+
+.md\:w-1\/3 {
+  width: 33.3333%;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0;
+  }
+}
+.testimonials-swiper {
+  padding: 20px 0 60px;
+}
+.swiper-pagination {
+  bottom: 0 !important;
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #cbd5e0;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background: #f6ad55;
+}
+
+.custom-clip {
+  clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
+  width: 56rem;
+  height: 30rem;
+}
+.bg-footer{
+  background-color: oklch(0.23 0.01 0);
+}
+.color-footer{
+  color: oklch(0.84 0.01 260.45);
+}
+
+/* Background Colors */
+.bg-light-green {
+  background-color: #e8f3e8; /* Light green background */
+}
+
+.bg-school-red {
+  background-color: #d32f2f; /* Deep red background */
+}
+
+/* Text Colors */
+.text-school-red {
+  color: #d32f2f; /* Deep red text */
+}
+
+.text-white {
+  color: #ffffff; /* White text */
+}
+
+/* Hover Effects */
+.hover\:bg-school-red:hover {
+  background-color: #d32f2f; /* Red background on hover */
+}
+
+.hover\:text-white:hover {
+  color: #ffffff; /* White text on hover */
+}
+.grid-background{
+  background-color: #e6f7ff;
+  background-image: linear-gradient(rgba(173, 216, 230, 0.5) 1px, transparent 1px),linear-gradient(90deg, rgba(173, 216, 230, 0.5) 1px, transparent 1px);
+  background-size: 38px 38px;
+}
